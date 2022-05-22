@@ -29,7 +29,7 @@
 }
 
 .logo_place-header {
-  background-image: url(/images/logo_place_header.svg);
+  background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
   left: 64px;
@@ -71,7 +71,7 @@
 }
 
 .header__main-illustration {
-  background-image: url(/images/header-image.png);
+  background-image: url(../images/header-image.png);
   background-size: cover;
   width: 765px;
   height: 608px;
@@ -167,7 +167,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background: #F2F2F2 url(/images/feynman.png) no-repeat bottom left;
+  background: #F2F2F2 url(../images/feynman.png) no-repeat bottom left;
   background-size: 867px 637px;
   position: relative;
 }
@@ -180,6 +180,7 @@
   text-align: center;
   width: 648px;
   margin: 0 auto;
+  display: flex;
 }
 
 .feinman__subtitle {
@@ -241,7 +242,7 @@
 .kaufman__triangle {
   width: 877px;
   height: 877px;
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -261,7 +262,7 @@
 .logo_footer {
   width: 228px;
   height: 32px;
-  background-image: url(/images/logo_place_footer.svg);
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__columns {
@@ -282,19 +283,23 @@
   bottom: 0;
   line-height: 25px;
   font-size: 18px;
-  color: #4F4F4F;
+  color: #F2F2F2;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
-  color: #FFF;
+  color: #F2F2F2;
   margin: 0 0 20px;
+  font-weight: 700;
 }
 
 .footer__column-links {
   padding: 0;
   cursor: pointer;
+  margin-bottom: 16px;
 }
 
 .footer__list-item {
@@ -305,7 +310,7 @@
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
-  color: #4F4F4F;
+  color: #F2F2F2;
 }
 
 .footer__link:hover {
@@ -314,6 +319,8 @@
 
 .footer__social-icon {
   margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__columns_info {
