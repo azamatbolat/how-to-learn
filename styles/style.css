@@ -77,7 +77,7 @@
   height: 608px;
   position: absolute;
   bottom: 0;
-  right: 0
+  right: 0;
 }
 
 .description {
@@ -200,7 +200,7 @@
 }
 
 .feinman__link:hover {
-  opacity: .6
+  opacity: .6;
 }
 .kaufman {
   background-color: #1F1F1F;
@@ -223,13 +223,13 @@
 .section-title_theme-dark {
   color: #fff;
   position: relative;
-  z-index: 1
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: #fff;
   position: relative;
-  z-index: 1
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
