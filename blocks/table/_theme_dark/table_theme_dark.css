@@ -1,0 +1,9 @@
+.table_theme_dark {
+  padding: 0;
+  font-size: 24px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-content: space-between;
+  position: relative;
+  z-index: 1;
+}
