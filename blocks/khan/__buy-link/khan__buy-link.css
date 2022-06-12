@@ -6,6 +6,7 @@
   transition: opacity .2s linear;
   cursor: pointer;
   margin-left: 48px;
+  align-self: auto;
 }
 
 .khan__buy-link:hover {
