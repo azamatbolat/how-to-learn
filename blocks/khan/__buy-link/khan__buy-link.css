@@ -7,6 +7,7 @@
   cursor: pointer;
   margin-left: 48px;
   align-self: auto;
+  height: 100%;
 }
 
 .khan__buy-link:hover {
